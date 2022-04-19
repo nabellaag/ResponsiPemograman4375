@@ -19,16 +19,22 @@ namespace ResponsiPemograman4375
             Console.WriteLine(" NIK : {0}", NIK);
             Console.WriteLine(" Gaji Bualanan : {0}", GajiBulanan);
 
-            Console.WriteLine("Semua karyawan telah mendapatkan kenaikan gaji");
+           
 
         }
 
         public void gaji()
         {
-            Console.WriteLine(" Gaji Bualanan : {0}", GajiBulanan);
+            if (GajiBulanan > 0)
+            {
+                Console.WriteLine(" Gaji Bualanan : {0}", (GajiBulanan*1.1));
+            }
+            
 
             
         }
+        
+        
 
     }
 }
