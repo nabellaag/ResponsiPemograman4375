@@ -22,6 +22,9 @@ namespace ResponsiPemograman4375 // project name.
 
             k1.daftar();
             k2.daftar();
+            
+            k1.gaji();
+            k2.gaji();
 
             Console.ReadKey();
 
